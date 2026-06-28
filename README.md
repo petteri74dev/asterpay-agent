@@ -21,15 +21,16 @@ AsterPay handles paying, settling to a European bank, and checking who you pay.
 ## Quick start
 
 ```bash
-# In an existing eve project, drop the agent/connections, agent/tools and
-# agent/skills files in. Or start fresh:
-npx eve@latest init my-agent
-cd my-agent
-# copy this repo's agent/ files into your agent/ directory, then:
+# Clone the template directly:
+git clone https://github.com/petteri74dev/asterpay-agent
+cd asterpay-agent
 cp .env.example .env   # fill in keys
 npm install
 npm run dev
 ```
+
+Or drop the `agent/connections`, `agent/tools` and `agent/skills` files into an
+existing eve project (`npx eve@latest init my-agent`).
 
 ## Configuration
 
@@ -60,6 +61,7 @@ natively so it can sit behind eve's `approval` gate. Calls above
 
 ## Links
 
+- This template: https://github.com/petteri74dev/asterpay-agent
 - AsterPay for eve agents: https://asterpay.io/eve/
 - AsterPay docs: https://asterpay.io
 - eve: https://github.com/vercel/eve
