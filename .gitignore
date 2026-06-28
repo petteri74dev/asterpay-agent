@@ -1,0 +1,9 @@
+node_modules/
+.eve/
+dist/
+build/
+.turbo/
+.vercel/
+.env
+.env.local
+*.log

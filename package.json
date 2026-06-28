@@ -1,0 +1,25 @@
+{
+  "name": "asterpay-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "eve agent template: pay x402 services in USDC, settle counterparties in EUR via SEPA Instant, and KYA-check before paying. Powered by AsterPay.",
+  "scripts": {
+    "dev": "eve dev",
+    "build": "eve build",
+    "start": "eve start",
+    "info": "eve info",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@x402/evm": "^2.10.0",
+    "@x402/fetch": "^2.10.0",
+    "eve": "^0.16.2",
+    "viem": "^2.45.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
